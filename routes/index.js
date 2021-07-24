@@ -5,3 +5,4 @@ const  router = express.Router();
 module.exports = router;
 
 router.get('/',homeController.home) //home function in controller folder : home_controller.js
+router.use('/users',require('./users')); 
