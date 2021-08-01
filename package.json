@@ -4,7 +4,9 @@
   "description": "Hi this is a practice project",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1"
   },
   "devDependencies": {},
   "scripts": {
